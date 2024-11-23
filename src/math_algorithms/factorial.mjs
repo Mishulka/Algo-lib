@@ -1,4 +1,4 @@
-function factorial(n) {
+export function factorial(n) {
     if (n < 0) {
       return "Factorial for negative numbers is not defined.";
     }
